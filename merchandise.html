@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title> Peter Gabriel </title>
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <br>
+    <a class="navbar-brand" href="/"img src="./assets/images/logopg.jpg"> </img>
+      <img src="./assets/images/logopg.jpg"> </img>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="/">Merchandise</a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tour-dates.html">Tour Dates</a></li>
+        <li><a href="discography.html">Discography</a></li>
+        <li><a href="media.html">Media</a></li>
+
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+
+<!-- <div class="filtr-container">
+    <div class="filtr-item" data-category="1" data-sort="value">
+       <img src="../assets/images/resizedmerch1.jpg"
+    </div>
+    <div class="filtr-item" data-category="2, 1" data-sort="value">
+       <img src="../assets/images/resizedmerch2.jpg"
+    </div>
+    <div class="filtr-item" data-category="1, 3" data-sort="value">
+       <img src="../assets/images/resizedmerch4.jpg" />
+    </div>
+
+<div class="filtr-item" data-category="1, 3" data-sort="value">
+         <img src="../assets/images/resizedmerch5.jpg" />
+    </div>
+<div class="filtr-item" data-category="1, 3" data-sort="value">
+      <img src="../assets/images/resizedmerch6.jpg" />
+    </div>
+
+<div class="filtr-item" data-category="1, 3" data-sort="value">
+       <img src="../assets/images/resizedmerch7.jpg" />
+    </div>
+</div>
+
+    </div> -->
+
+  <!-- </div> -->
+
+<style>
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+  <!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('shirts')"> Shirts</button>
+  <button class="btn" onclick="filterSelection('books')"> Books</button>
+  <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 filterDiv shirts">
+      <img class="img-responsive" src="../assets/images/resizedmerch1.jpg" />
+    </div>
+<div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 filterDiv shirts">
+          <img class="img-responsive" src="../assets/images/resizedmerch2.jpg" />
+        </div>
+<div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 filterDiv shirts">
+                  <img class="img-responsive" src="../assets/images/resizedmerch4.jpg" />
+                </div>
+<div class="container">
+                  <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-4 filterDiv shirts">
+                  <img class="img-responsive" src="../assets/images/resizedmerch6.jpg" />
+                  </div>
+
+<div class="container">
+      <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 filterDiv books">
+      <img class="img-responsive" src="../assets/images/resizedmerch5.jpg" />
+      </div>
+<div class="container">
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 filterDiv accessories">
+            <img class="img-responsive" src="../assets/images/resizedmerch7.jpg" />
+            </div>
+
+
+    <div class="filterDiv colors fruits">Orange</div>
+    <div class="filterDiv cars">Volvo</div>
+    <div class="filterDiv colors">Red</div>
+    <div class="filterDiv cars animals">Mustang</div>
+    <div class="filterDiv colors">Blue</div>
+    <div class="filterDiv animals">Cat</div>
+    <div class="filterDiv animals">Dog</div>
+    <div class="filterDiv fruits">Melon</div>
+    <div class="filterDiv fruits animals">Kiwi</div>
+    <div class="filterDiv fruits">Banana</div>
+    <div class="filterDiv fruits">Lemon</div>
+    <div class="filterDiv animals">Cow</div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+
+
+
+
+</html>
